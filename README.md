@@ -7,6 +7,7 @@ Esta base de datos es para un sistema que mantiene registro de contratos de pago
 [Ejecución](#ejecucion) 
 
 <a name="tablas"/>
+
 ## Tablas
 
 ### Tabla Contracts
