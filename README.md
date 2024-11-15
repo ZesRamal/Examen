@@ -1,4 +1,4 @@
-# COBRATRON EXAMEN
+# COBRATRON BD
 
 Esta base de datos es para un sistema que mantiene registro de contratos de pagos a cierta cantidad de plazos (semanales, mensuales, trimestrales, semestrales o anuales). Tiene funciones que crean un nuevo contrato, otra que marca un pago nuevo de éste último y una última que genera un reporte de los pagos que faltan.
 
