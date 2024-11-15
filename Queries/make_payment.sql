@@ -1,2 +1,2 @@
 SELECT
-    add_payment (2);
+    add_payment (1);

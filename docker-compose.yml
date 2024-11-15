@@ -1,0 +1,18 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: cobratron-db
+    environment:
+      POSTGRES_USER: postgres            
+      POSTGRES_PASSWORD: password   
+      POSTGRES_DB: cobratron     
+    ports:
+      - "5432:5432"                  
+    volumes:
+      - ./init:/docker-entrypoint-initdb.d
+    networks:
+      - dbnetwork
+
+networks:
+  dbnetwork:
+    driver: bridge
