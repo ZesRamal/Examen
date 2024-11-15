@@ -48,11 +48,11 @@ Esta base de datos es para un sistema que mantiene registro de contratos de pago
 
 ### Paso 1: Clona el Repositorio
 
-Clona este repositorio en tu máquina local:
+Clona este repositorio en tu máquina local, abre una terminal en la ubicación donde quieras guardar el repositorio:
 
 ```bash
 git clone https://github.com/ZesRamal/Cobratron-Examen.git
-cd your-repository
+cd Cobratron-Examen
 ```
 
 ### Paso 2: Configura el Docker
