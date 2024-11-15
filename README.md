@@ -29,6 +29,7 @@ Esta base de datos es para un sistema que mantiene registro de contratos de pago
 | **payment_amount**   | `DECIMAL(15, 2)`       |
 | **payment_due_date** | `DATE`                 |
 
+---
 
 ## Relaciones
 
