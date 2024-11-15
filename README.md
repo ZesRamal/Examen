@@ -2,6 +2,11 @@
 
 Esta base de datos es para un sistema que mantiene registro de contratos de pagos a cierta cantidad de plazos (semanales, mensuales, trimestrales, semestrales o anuales). Tiene funciones que crean un nuevo contrato, otra que marca un pago nuevo de éste último y una última que genera un reporte de los pagos que faltan.
 
+##### Contenido 
+[Tablas](#tablas)  
+[Ejecución](#ejecucion) 
+
+<a name="tablas"/>
 ## Tablas
 
 ### Tabla Contracts
@@ -19,7 +24,6 @@ Esta base de datos es para un sistema que mantiene registro de contratos de pago
 | **remaining_balance**      | `DECIMAL(15, 2)`       |
 | **status**                 | `BOOLEAN`              |
 
----
 
 ### Tabla PaymentLogs
 
@@ -30,7 +34,6 @@ Esta base de datos es para un sistema que mantiene registro de contratos de pago
 | **payment_amount**   | `DECIMAL(15, 2)`       |
 | **payment_due_date** | `DATE`                 |
 
----
 
 ## Relaciones
 
@@ -39,6 +42,7 @@ Esta base de datos es para un sistema que mantiene registro de contratos de pago
 
 ---
 
+<a name="ejecucion"/>
 ## Ejecución
 
 ### Prerequisitos
